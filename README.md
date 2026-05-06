@@ -66,6 +66,16 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ---
 
+## Recent Additions
+
+- **SIC v6.0.0** — 38 tool routes patched for shell injection safety, per-service API tokens, rate limiting, hardened error handling
+- **MizzyTools** — AI insights streaming via Ollama-first/OpenRouter-fallback, PrismaticBurst WebGL backdrop, mobile bottom nav bar
+- **francois-landing** — PanelLearn visual overhaul (glassmorphism, XP strip, animated rings), SystemsTab Clear buttons, Space Grotesk typography
+- **EV Betta** — single CF native cron driver, job telemetry, Discord threshold-delta notifications removed
+- **Infrastructure** — PM2 popup watchdog hardening, autodeploy hook `[skip-deploy]` token, orphaned pythonw cleanup
+
+---
+
 <div align="center">
 
 [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) · [SIC](https://github.com/DevCraftXCoder/SIC) · [AttackMap](https://github.com/DevCraftXCoder/AttackMap) · [EV Betta](https://github.com/DevCraftXCoder/EV-Betta)
