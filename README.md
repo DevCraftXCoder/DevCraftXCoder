@@ -68,11 +68,11 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
-- **SIC v6.0.0** — 38 tool routes patched for shell injection safety, per-service API tokens, rate limiting, hardened error handling
-- **MizzyTools** — AI insights streaming via Ollama-first/OpenRouter-fallback, PrismaticBurst WebGL backdrop, mobile bottom nav bar
-- **francois-landing** — PanelLearn visual overhaul (glassmorphism, XP strip, animated rings), SystemsTab Clear buttons, Space Grotesk typography
-- **EV Betta** — single CF native cron driver, job telemetry, Discord threshold-delta notifications removed
-- **Infrastructure** — PM2 popup watchdog hardening, autodeploy hook `[skip-deploy]` token, orphaned pythonw cleanup
+- **SIC** — Payment system + billing hardening: public-checkout endpoint secured with exact-match auth allowlist, email removed from URLs
+- **EV Betta** — Outlier token health-check PM2 job + Windows toast alerts for expired tokens
+- **EV Betta** — Rescrape picks button triggers Discord notify-top3 with lowered ultra-safe threshold
+- **EV Betta** — PM2 popup cleanup script 41–49% faster (StreamWriter, cached netstat, batch CimInstance)
+- **Attack Map** — Interactive legend filter chips, contrast polish, Framer Motion micro-interactions, collapsible panels
 
 ---
 
