@@ -33,6 +33,7 @@ Edge-first backends, AI integrations, and security tooling — designed to run a
 | [SIC — Security Intelligence Center](https://github.com/DevCraftXCoder/SIC) | AI-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper and threat modeling framework — MCP-compatible, structured threat reports, IP-allowlisted | Python · MCP · REST API |
 | [EV Betta](https://github.com/DevCraftXCoder/EV-Betta) | Sports analytics pipeline — odds scraper, EV engine, React picks board, edge-cached API | TypeScript · Hono · CF Workers · D1 · React |
+| [PDF Report Engine](https://github.com/DevCraftXCoder/PDF-Report-Engine) | Enterprise PDF generation — Python ReportLab engine, Next.js API routes, React 4-step wizard UI, live preview | Python · Node.js · Next.js · ReportLab |
 | [Growth Report AI](https://github.com/DevCraftXCoder/Growth-Report-AI) | AI analytics dashboard — streaming Claude reports, prompt caching, sub-2s load, period-over-period comparisons | Next.js · Anthropic SDK · SSE |
 | [Biggest Bro](https://github.com/DevCraftXCoder/Biggest-Bro) | Domain-expert AI agent — Claude Opus 4.7 extended thinking, tool use, prompt caching, SSE streaming | Next.js · Anthropic SDK · Claude API |
 | [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Multi-panel admin console with embedded Security Intelligence Center — AI-powered vulnerability analysis | Next.js · TypeScript · Claude API |
@@ -68,11 +69,11 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
-- **SIC** — Payment system + billing hardening: public-checkout endpoint secured with exact-match auth allowlist, email removed from URLs
-- **EV Betta** — Outlier token health-check PM2 job + Windows toast alerts for expired tokens
-- **EV Betta** — Rescrape picks button triggers Discord notify-top3 with lowered ultra-safe threshold
-- **EV Betta** — PM2 popup cleanup script 41–49% faster (StreamWriter, cached netstat, batch CimInstance)
-- **Attack Map** — Interactive legend filter chips, contrast polish, Framer Motion micro-interactions, collapsible panels
+- **PDF Report Engine** — Enterprise PDF generation — dual Python + Node.js package, ReportLab multi-section rendering, Next.js API routes, React 4-step wizard with live PNG preview
+- **Prompt Library** — Model-toggle sorting (HIGH/LOW by tier complexity), Fraunces+Inter unified type system, SVG hero replaced with PNG logo + hover effects
+- **SIC** — P0 blockers: magic-link email, rate-limit bypass, secrets docs; payment system + billing hardening
+- **Admin Dashboard** — Behavioral Signals (renamed from Influence Metrics), Risk Signals framework, SIC panel integration
+- **AttackMap** — Interactive legend filter chips, contrast polish, Framer Motion micro-interactions, collapsible panels
 
 ---
 
