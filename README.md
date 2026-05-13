@@ -71,11 +71,11 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
-- **PM2 Popup Guard** — Windows PM2 process cleanup daemon: 5-rule watchdog + 6-phase daily sweep, kills stale Playwright/Explorer/WT popups, auto-heals port bindings, resets crash counters
-- **PDF Report Engine** — Enterprise PDF generation — dual Python + Node.js package, ReportLab multi-section rendering, Next.js API routes, React 4-step wizard with live PNG preview
-- **Prompt Library** — Model-toggle sorting (HIGH/LOW by tier complexity), Fraunces+Inter unified type system, SVG hero replaced with PNG logo + hover effects
-- **SIC** — P0 blockers: magic-link email, rate-limit bypass, secrets docs; payment system + billing hardening
-- **Admin Dashboard** — Behavioral Signals (renamed from Influence Metrics), Risk Signals framework, SIC panel integration
+- **Finos** — multi-platform workspace app (Next.js web + Tauri desktop), wired to real API, Supabase bridge, 5-screen dashboard with token-based design system
+- **Shorts Pipeline** — Phase 1: CLI scaffold, schema, ffmpeg engine, and transcriber for automated short-form content processing
+- **Underground API** — audit fixes: smoke test URL guard, fans limit clamp, migrations 065–067; audit:ci script for production-only severity checks
+- **SIC** — secretlint added, P0 blockers resolved (magic-link email, rate-limit bypass, secrets docs), billing hardening
+- **Admin Dashboard** — DependencyHealth SCA card reworked with tiered actions + DependencyReviewModal; uptime panel now direct-probes CF Workers when stats-server unreachable
 
 ---
 
