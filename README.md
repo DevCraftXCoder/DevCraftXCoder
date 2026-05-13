@@ -30,6 +30,7 @@ Edge-first backends, AI integrations, and security tooling — designed to run a
 | Project | What It Is | Stack |
 |---------|-----------|-------|
 | [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Edge-native social platform — 150+ API routes, real-time DMs via Durable Objects, AI moderation, Stripe subscriptions | TypeScript · Hono · CF Workers · D1 · R2 |
+| [Finos](https://github.com/DevCraftXCoder/Finos) | Multi-platform workspace app — Next.js web + Tauri desktop + edge API, real-time sync, AI intelligence, typed SQL bridge | Next.js 15 · Tauri 2.x · Hono · CF Workers · Supabase |
 | [SIC — Security Intelligence Center](https://github.com/DevCraftXCoder/SIC) | AI-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper and threat modeling framework — MCP-compatible, structured threat reports, IP-allowlisted | Python · MCP · REST API |
 | [EV Betta](https://github.com/DevCraftXCoder/EV-Betta) | Sports analytics pipeline — odds scraper, EV engine, React picks board, edge-cached API | TypeScript · Hono · CF Workers · D1 · React |
