@@ -38,6 +38,7 @@ Edge-first backends, AI integrations, and security tooling — designed to run a
 | [Biggest Bro](https://github.com/DevCraftXCoder/Biggest-Bro) | Domain-expert AI agent — advanced LLM extended thinking, tool use, prompt caching, SSE streaming | Next.js · LLM SDK · LLM API |
 | [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Multi-panel admin console with embedded Security Intelligence Center — AI-powered vulnerability analysis | Next.js · TypeScript · LLM API |
 | [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, Cloudflare Named Tunnel (zero port exposure) | Next.js · Docker · Cloudflare Tunnel |
+| [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale Playwright/Explorer popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Influnx Calc](https://github.com/DevCraftXCoder/Influnx-Calc) | Influencer scoring engine — 100-point multi-metric system, sub-100ms at 1,000 req/s, pure TypeScript | TypeScript · React · Vitest |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | — |
 
@@ -51,7 +52,7 @@ AI Integration        │  LLM APIs · extended thinking · tool use · prompt c
 Security Engineering  │  MCP pentesting · attack surface mapping · zero-trust IP allowlisting · OWASP
 Backend               │  TypeScript · Hono · Python · FastAPI · SQL · Zod validation
 Frontend              │  Next.js 15 · App Router · React · Vite · Server Actions
-Infrastructure        │  Docker · PM2 · Cloudflare Named Tunnels · Workers Rate Limiting
+Infrastructure        │  Docker · PM2 · Cloudflare Named Tunnels · Workers Rate Limiting · PowerShell
 ```
 
 ---
@@ -69,11 +70,11 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
+- **PM2 Popup Guard** — Windows PM2 process cleanup daemon: 5-rule watchdog + 6-phase daily sweep, kills stale Playwright/Explorer/WT popups, auto-heals port bindings, resets crash counters
 - **PDF Report Engine** — Enterprise PDF generation — dual Python + Node.js package, ReportLab multi-section rendering, Next.js API routes, React 4-step wizard with live PNG preview
 - **Prompt Library** — Model-toggle sorting (HIGH/LOW by tier complexity), Fraunces+Inter unified type system, SVG hero replaced with PNG logo + hover effects
 - **SIC** — P0 blockers: magic-link email, rate-limit bypass, secrets docs; payment system + billing hardening
 - **Admin Dashboard** — Behavioral Signals (renamed from Influence Metrics), Risk Signals framework, SIC panel integration
-- **AttackMap** — Interactive legend filter chips, contrast polish, Framer Motion micro-interactions, collapsible panels
 
 ---
 
