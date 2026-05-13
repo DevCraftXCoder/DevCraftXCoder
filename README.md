@@ -65,7 +65,7 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 - **Edge-first**: If it can run on a Worker, it does. Durable Objects for stateful real-time, D1 for relational, R2 for binary. No traditional servers.
 - **Security-aware by default**: Rate limiting at the edge, timing-safe auth, CSRF guards, IDOR prevention, Zod on every boundary.
 - **AI as infrastructure**: Not bolted on — LLM API integrations are first-class with prompt caching, structured tool use, and streaming built in from the start.
-- **Single-pass delivery**: No MVP iterations. Features ship production-ready with error handling, validation, and observability.
+- **Single-pass delivery**: Features ship complete and production-ready — error handling, validation, and observability included from day one.
 
 ---
 
