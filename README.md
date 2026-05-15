@@ -39,6 +39,7 @@ Edge-first backends, AI integrations, and security tooling — designed to run a
 | [Biggest Bro](https://github.com/DevCraftXCoder/Biggest-Bro) | Domain-expert AI agent — advanced LLM extended thinking, tool use, prompt caching, SSE streaming | Next.js · LLM SDK · LLM API |
 | [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Multi-panel admin console with embedded Security Intelligence Center — AI-powered vulnerability analysis | Next.js · TypeScript · LLM API |
 | [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, Cloudflare Named Tunnel (zero port exposure) | Next.js · Docker · Cloudflare Tunnel |
+| [Mode](https://github.com/DevCraftXCoder/Mode) | System resource optimizer — auto-pauses Docker, WSL, and background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU for Premiere, DaVinci, Blender, and local LLMs | Node.js · PowerShell · PM2 |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale Playwright/Explorer popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Influnx Calc](https://github.com/DevCraftXCoder/Influnx-Calc) | Influencer scoring engine — 100-point multi-metric system, sub-100ms at 1,000 req/s, pure TypeScript | TypeScript · React · Vitest |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | — |
@@ -71,6 +72,8 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
+- **Mode** — system resource optimizer: auto-pauses Docker, WSL, and background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU for heavy creative apps and local LLMs
+- **Growth Report AI** — AI analytics dashboard with streaming LLM reports, prompt caching, sub-2s load time, and period-over-period comparisons
 - **Finos** — multi-platform workspace app (Next.js web + Tauri desktop), wired to real API, Supabase bridge, 5-screen dashboard with token-based design system
 - **Shorts Pipeline** — Phase 1: CLI scaffold, schema, ffmpeg engine, and transcriber for automated short-form content processing
 - **Underground API** — audit fixes: smoke test URL guard, fans limit clamp, migrations 065–067; audit:ci script for production-only severity checks
