@@ -2,13 +2,13 @@
 
 # DevCraftXCoder
 
-**Cybersecurity engineer building offensive tooling, hardened cloud infrastructure, and AI-powered security systems.**
+**Forward-deployed engineer specializing in security systems, edge infrastructure, and AI-driven automation.**
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![LLM APIs](https://img.shields.io/badge/LLM_Integration-D97706?style=flat&logo=openai&logoColor=white)](https://www.anthropic.com/)
+[![Claude API](https://img.shields.io/badge/Claude_API-D97706?style=flat&logo=anthropic&logoColor=white)](https://www.anthropic.com/)
 
 </div>
 
@@ -16,12 +16,12 @@
 
 ## What I Build
 
-Security tooling, hardened cloud infrastructure, and AI-powered automation — designed for production environments where security is non-negotiable.
+Production security tooling, globally distributed edge systems, and AI automation — architected for environments where uptime, data integrity, and threat resilience are baseline requirements.
 
-- **Offensive security** — AI-powered pentesting framework, attack surface mapping, autonomous security agents, MCP-compatible tooling.
-- **Hardened infrastructure** — Edge-first architecture on Cloudflare Workers with timing-safe auth, CSRF guards, rate limiting, IDOR prevention, and Zod validation on every boundary.
-- **AI automation** — LLM API integrations with extended thinking, prompt caching, streaming, and tool use. Security-aware by default.
-- **Full-stack delivery** — From D1 schema to React component — complete systems with error handling, observability, and security baked in from day one.
+- **Security engineering** — Pentesting frameworks with 150+ tools and autonomous agents, attack surface mapping, zero-trust access controls, and MCP-compatible tooling for integration into existing security workflows.
+- **Edge-native infrastructure** — Serverless backends on Cloudflare Workers with D1, R2, Durable Objects, and Workers Rate Limiting. Globally distributed, no cold starts, no traditional server management.
+- **AI systems** — LLM API integrations with extended thinking, prompt caching, structured tool use, and streaming. Built for security automation, intelligent reporting, and autonomous analysis — not prototypes.
+- **Full-stack product delivery** — End-to-end ownership from database schema to deployed frontend. Every system ships with hardened auth, input validation, error handling, and observability from day one.
 
 ---
 
