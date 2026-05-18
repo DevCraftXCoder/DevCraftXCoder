@@ -43,6 +43,7 @@ Edge-first backends, AI integrations, and security tooling — designed to run a
 | [Mode](https://github.com/DevCraftXCoder/Mode) | System resource optimizer — auto-pauses Docker, WSL, and background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU for Premiere, DaVinci, Blender, and local LLMs | Node.js · PowerShell · PM2 |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale Playwright/Explorer popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Influnx Calc](https://github.com/DevCraftXCoder/Influnx-Calc) | Influencer scoring engine — 100-point multi-metric system, sub-100ms at 1,000 req/s, pure TypeScript | TypeScript · React · Vitest |
+| [Hook Recovery](https://github.com/DevCraftXCoder/hook-recovery) | Claude Code hook hardening kit — fixes re-read loops, silent write failures, post-compact blocks. 23-test suite, problem registry, one-line install | Node.js · Claude Code Hooks |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | — |
 
 ---
@@ -73,6 +74,7 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
+- **Hook Recovery** — Claude Code hook hardening kit: fixes token-guard re-read loops, silent write failures, and post-compact blocked reads. 23-test suite, problem registry pattern, diagnostic CLI, one-line install
 - **Mode** — system resource optimizer: auto-pauses Docker, WSL, and background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU for heavy creative apps and local LLMs
 - **Growth Report AI** — AI analytics dashboard with streaming LLM reports, prompt caching, sub-2s load time, and period-over-period comparisons
 - **Finos** — multi-platform workspace app (Next.js web + Tauri desktop), wired to real API, Supabase bridge, 5-screen dashboard with token-based design system
@@ -85,6 +87,6 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 <div align="center">
 
-[Underground Social](https://github.com/DevCraftXCoder/Underground-Social) · [SIC](https://github.com/DevCraftXCoder/SIC) · [AttackMap](https://github.com/DevCraftXCoder/AttackMap) · [EV Betta](https://github.com/DevCraftXCoder/EV-Betta)
+[Underground Social](https://github.com/DevCraftXCoder/Underground-Social) · [SIC](https://github.com/DevCraftXCoder/SIC) · [Hook Recovery](https://github.com/DevCraftXCoder/hook-recovery) · [AttackMap](https://github.com/DevCraftXCoder/AttackMap) · [EV Betta](https://github.com/DevCraftXCoder/EV-Betta)
 
 </div>
