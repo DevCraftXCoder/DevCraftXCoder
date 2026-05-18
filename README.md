@@ -44,19 +44,19 @@ Production security tooling, globally distributed edge systems, and AI automatio
 | [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, Cloudflare Named Tunnel (zero port exposure) | Next.js · Docker · Cloudflare Tunnel |
 | [Influnx Calc](https://github.com/DevCraftXCoder/Influnx-Calc) | Influencer scoring engine — 100-point multi-metric system, sub-100ms at 1,000 req/s, pure TypeScript | TypeScript · React · Vitest |
 | [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Edge-native social platform — 150+ API routes, real-time DMs via Durable Objects, AI moderation, Stripe subscriptions (inactive) | TypeScript · Hono · CF Workers · D1 · R2 |
-| [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | — |
+| [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | JSON · TypeScript · MCP |
 
 ---
 
 ## Technical Focus
 
 ```
-Security Engineering  │  MCP pentesting · attack surface mapping · zero-trust IP allowlisting · OWASP · IDOR prevention
-AI + Security         │  LLM APIs · autonomous security agents · extended thinking · tool use · prompt caching
-Edge Architecture     │  Cloudflare Workers · D1 · R2 · Durable Objects · KV · Workers Rate Limiting
-Backend               │  TypeScript · Hono · Python · FastAPI · SQL · Zod validation
-Frontend              │  Next.js 15 · App Router · React · Vite · Server Actions
-Infrastructure        │  Docker · PM2 · Cloudflare Named Tunnels · PowerShell · CI/CD automation
+Security              │  Pentesting frameworks · attack surface mapping · OWASP · zero-trust access · MCP tooling
+AI & Automation       │  Claude API · autonomous agents · extended thinking · prompt caching · structured tool use · SSE
+Cloud & Edge          │  Cloudflare Workers · D1 · R2 · Durable Objects · KV · Workers Rate Limiting · Named Tunnels
+Backend               │  TypeScript · Hono · Python · FastAPI · PostgreSQL · SQLite (D1) · Zod · JWT · Web Crypto
+Frontend              │  Next.js 15 · React 19 · Tauri 2.x · Vite · App Router · Server Actions
+DevOps                │  Docker · PM2 · Wrangler · Git hooks · PowerShell · Automated deploy pipelines
 ```
 
 ---
