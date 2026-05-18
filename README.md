@@ -39,6 +39,7 @@ Edge-first backends, AI integrations, and security tooling — designed to run a
 | [Biggest Bro](https://github.com/DevCraftXCoder/Biggest-Bro) | Domain-expert AI agent — advanced LLM extended thinking, tool use, prompt caching, SSE streaming | Next.js · LLM SDK · LLM API |
 | [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Multi-panel admin console with embedded Security Intelligence Center — AI-powered vulnerability analysis | Next.js · TypeScript · LLM API |
 | [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, Cloudflare Named Tunnel (zero port exposure) | Next.js · Docker · Cloudflare Tunnel |
+| [Autodeploy](https://github.com/DevCraftXCoder/Autodeploy) | Non-blocking CF Workers autodeploy hook system — git-triggered builds, detached wrangler deploy, concurrent pipelines | Node.js · Cloudflare Workers · Git Hooks |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale Playwright/Explorer popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Influnx Calc](https://github.com/DevCraftXCoder/Influnx-Calc) | Influencer scoring engine — 100-point multi-metric system, sub-100ms at 1,000 req/s, pure TypeScript | TypeScript · React · Vitest |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | — |
