@@ -63,13 +63,13 @@ Infrastructure        │  Docker · PM2 · Cloudflare Named Tunnels · PowerShe
 
 ## How I Work
 
-Solo full-stack — I own the entire stack from threat model to deployed edge Worker. Architecture decisions skew toward:
+End-to-end ownership — from threat model and database schema through deployed edge infrastructure. I architect, implement, harden, and ship.
 
-- **Security-first**: Rate limiting at the edge, timing-safe auth, CSRF guards, IDOR prevention, Zod on every boundary. Security is the default, not a retrofit.
-- **Offensive + defensive**: I build the pentesting tools and the hardened systems they test against. Both sides of the equation.
-- **Edge-first**: If it can run on a Worker, it does. Durable Objects for stateful real-time, D1 for relational, R2 for binary. No traditional servers.
-- **AI as infrastructure**: LLM integrations are first-class with prompt caching, structured tool use, and streaming — purpose-built for security automation and analysis.
-- **Single-pass delivery**: Features ship complete and production-ready — error handling, validation, and observability included from day one.
+- **Security by design** — Every system is built with hardened auth, input validation, rate limiting, and CSRF protection from the first commit. Security is a design constraint, not a follow-up ticket.
+- **Offensive and defensive** — I build the pentesting frameworks and the production systems they're designed to test. Understanding both sides produces better engineering on each.
+- **Edge-native architecture** — Cloudflare Workers, D1, R2, and Durable Objects as the default runtime. Globally distributed, zero cold starts, no server management overhead.
+- **AI-augmented workflows** — LLM integrations built with prompt caching, structured tool use, and streaming for security automation, intelligent reporting, and autonomous analysis at scale.
+- **Production-grade standards** — Every feature includes structured error handling, observability, input validation, and deployment configuration. Nothing ships incomplete.
 
 ---
 
