@@ -44,7 +44,7 @@ Production security tooling, globally distributed edge systems, and AI automatio
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup - kills stale Playwright/Explorer popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard - streaming media downloads, analytics, dev app launcher; Cloudflare Named Tunnel (zero port exposure) | Next.js · Docker · Cloudflare Tunnel |
 | [Influnx Calc](https://github.com/DevCraftXCoder/Influnx-Calc) | Influencer scoring engine - 100-point multi-metric system, sub-100ms at 1,000 req/s, pure TypeScript | TypeScript · React · Vitest |
-| [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Edge-native social platform - 150+ API routes, real-time DMs via Durable Objects, AI moderation, Stripe subscriptions (inactive) | TypeScript · Hono · CF Workers · D1 · R2 |
+| [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Artist emerging platform - collaborate with artists, post music, discover artists, real-time DMs, social discovery; edge-native with 150+ API routes | TypeScript · Hono · CF Workers · D1 · R2 |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 1,000+ production-ready prompts - Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript format | JSON · TypeScript · MCP |
 
 ---
