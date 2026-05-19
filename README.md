@@ -31,6 +31,7 @@ Production security tooling, globally distributed edge systems, and AI automatio
 |---------|-----------|-------|
 | [SIC - Security Intelligence Center](https://github.com/DevCraftXCoder/SIC) | AI-powered pentesting MCP framework - 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
 | [Finos](https://github.com/DevCraftXCoder/Finos) | Multi-platform workspace app - Next.js web + Tauri desktop + edge API, real-time sync, AI intelligence, typed SQL bridge | Next.js 15 · Tauri 2.x · Hono · CF Workers · Supabase |
+| [Claude Hermes Bridge](https://github.com/DevCraftXCoder/claude-hermes-bridge) | Claude Code ↔ Hermes agent bridge - auto-syncs agents, hooks, and skills to WSL2 autonomous agent, memory export, Discord gateway bot, multi-provider LLM fallback | Node.js · WSL2 · Ollama · Claude Code Hooks |
 | [PDF Report Engine](https://github.com/DevCraftXCoder/PDF-Report-Engine) | Enterprise PDF generation - Python ReportLab engine, Next.js API routes, React 4-step wizard UI, live preview | Python · Node.js · Next.js · ReportLab |
 | [Growth Report AI](https://github.com/DevCraftXCoder/Growth-Report-AI) | AI analytics dashboard - streaming LLM reports, prompt caching, sub-2s load, period-over-period comparisons | Next.js · LLM SDK · SSE |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper and threat modeling framework - MCP-compatible, structured threat reports, IP-allowlisted | Python · MCP · REST API |
