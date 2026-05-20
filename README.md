@@ -73,13 +73,13 @@ Solo full-stack — I own the entire stack from D1 schema to React component. Ar
 
 ## Recent Additions
 
-- **Mode** — system resource optimizer: auto-pauses Docker, WSL, and background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU for heavy creative apps and local LLMs
-- **Growth Report AI** — AI analytics dashboard with streaming LLM reports, prompt caching, sub-2s load time, and period-over-period comparisons
-- **Finos** — multi-platform workspace app (Next.js web + Tauri desktop), wired to real API, Supabase bridge, 5-screen dashboard with token-based design system
-- **Shorts Pipeline** — Phase 1: CLI scaffold, schema, ffmpeg engine, and transcriber for automated short-form content processing
-- **Underground API** — audit fixes: smoke test URL guard, fans limit clamp, migrations 065–067; audit:ci script for production-only severity checks
-- **SIC** — secretlint added, P0 blockers resolved (magic-link email, rate-limit bypass, secrets docs), billing hardening
-- **Admin Dashboard** — DependencyHealth SCA card reworked with tiered actions + DependencyReviewModal; uptime panel now direct-probes CF Workers when stats-server unreachable
+- **PM2 Popup Guard** — Windows daemon + daily sweep that kills stale Playwright/Explorer/Terminal popups before they knock PM2 services offline; 5 root-cause kill rules, CimInstance batch fetch for `~66ms` sweep
+- **Jinzey 2048** — western-themed 2048 game shipped into francois-landing: Vintage tile set with Unsplash art, 17 popup UX fixes, relic-toast stacking guard, achievement z-index polish
+- **Finos** — web ↔ desktop parity pass: 25 UI improvements, Tax screen, Settings nav, demo gate, CSP — identical dashboard layout across Next.js and Tauri surfaces
+- **Resume API** — PDF footer stamping via pdf-lib + P0 security patches (auth bypass, path traversal, input validation)
+- **Hermes** — autonomous agent integrated in WSL2 Ubuntu: Ollama provider, brain dump bridge from frxncois-memory, systemd service, live web dashboard
+- **SIC** — standalone billing server with X-Billing-Key machine-to-machine auth; Sentry SDK init; dashboard login with logo upload, background toggle (Letter Glitch / galaxy / navy), P0 audit fixes
+- **Swarm Orchestrator** — existence audit across all agents; routing gap fixes; token-trim to prevent context overflow on large task dispatches
 
 ---
 
