@@ -60,6 +60,7 @@ Production security tooling, globally distributed edge systems, AI-powered autom
 | [Mode](https://github.com/DevCraftXCoder/Mode) | System resource optimizer — auto-pauses Docker, WSL, background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU | Node.js · PowerShell · PM2 |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Hook Recovery](https://github.com/DevCraftXCoder/hook-recovery) | Claude Code hook hardening kit — fixes re-read loops, silent write failures, post-compact blocks. 23-test suite, one-line install | Node.js · Claude Code Hooks |
+| [ai-alias-system](https://github.com/DevCraftXCoder/ai-alias-system) | Symbol-shorthand alias vocabulary for AI coding assistants — `pnpm dlx ai-alias-system install` wires `@`, `$`, `#`, `&`, `%`, `~` into Claude Code, Codex CLI, and Gemini CLI | Node.js · pnpm CLI · Claude Code · Codex · Gemini |
 | [PDF Report Engine](https://github.com/DevCraftXCoder/PDF-Report-Engine) | Enterprise PDF generation — Python ReportLab engine, Next.js API routes, React 4-step wizard, live preview | Python · Node.js · Next.js · ReportLab |
 
 ### Analytics & Data
@@ -106,6 +107,7 @@ End-to-end ownership — from threat model and database schema through deployed 
 
 ## Recent Work
 
+- **ai-alias-system** — `@$#&%~` symbol shorthand for Claude Code, Codex CLI, Gemini CLI — interactive wizard, per-project vocabulary, validate command
 - **Claude Hermes Bridge** — multi-provider LLM fallback (Ollama -> OpenRouter), Discord gateway bot, auth.json credential cache management, provider resolution debugging
 - **PM2 Popup Guard** — Windows daemon + daily sweep that kills stale Playwright/Explorer/Terminal popups; 5 root-cause kill rules, CimInstance batch fetch
 - **Finos Desktop** — Tauri 2.x with microphone input settings, admin mode bypass, WebView2 mic dialog, STT diagnostics
