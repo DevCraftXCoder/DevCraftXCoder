@@ -57,6 +57,7 @@ Production security tooling, globally distributed edge systems, AI-powered autom
 |---------|-----------|-------|
 | [Ops App](https://github.com/DevCraftXCoder/Ops-App) | Workflow automation, monitoring, alerting and ticketing dashboard — drag-and-drop workflow builder, real-time metrics, PM2/CF cron migration | Next.js 15 · React Flow · CF Workers · R2 |
 | [Autodeploy](https://github.com/DevCraftXCoder/Autodeploy) | Non-blocking CF Workers autodeploy hook system — git-triggered builds, detached wrangler deploy, concurrent pipelines | Node.js · Cloudflare Workers · Git Hooks |
+| [Swarm Orchestrator](https://github.com/DevCraftXCoder/swarm-orchestrator) | Meta-orchestrator for AI coding agents — analyzes tasks, picks agents, dispatches swarms, collects handoffs | Node.js · Claude Code · Agent Framework |
 | [Mode](https://github.com/DevCraftXCoder/Mode) | System resource optimizer — auto-pauses Docker, WSL, background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU | Node.js · PowerShell · PM2 |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
 | [Hook Recovery](https://github.com/DevCraftXCoder/hook-recovery) | Claude Code hook hardening kit — fixes re-read loops, silent write failures, post-compact blocks. 23-test suite, one-line install | Node.js · Claude Code Hooks |
