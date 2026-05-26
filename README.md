@@ -19,7 +19,7 @@
 
 Production security tooling, globally distributed edge systems, Automation, and a social music platform for independent artists — architected for environments where uptime, data integrity, and threat resilience are baseline requirements.
 
-- **Security engineering** — Pentesting frameworks with 150+ tools and Autonomous agents, attack surface mapping, zero-trust access controls, and MCP-compatible tooling for integration into existing security workflows.
+- **Security engineering** — Pentesting frameworks with tools and Autonomous agents, attack surface mapping, zero-trust access controls, and MCP-compatible tooling for integration into existing security workflows.
 - **Edge-native infrastructure** — Serverless backends on Cloudflare Workers with D1, R2, Durable Objects, and Workers Rate Limiting. Globally distributed, no cold starts, no traditional server management.
 - **automation systems** — Multi-provider LLM integrations (Claude, OpenRouter, Ollama) with extended thinking, prompt caching, structured tool use, streaming, and autonomous agent orchestration. Built for security automation, intelligent reporting, and real-time analysis.
 - **Full-stack product delivery** — End-to-end ownership from database schema to deployed frontend. Every system ships with hardened auth, input validation, error handling, and observability from day one.
