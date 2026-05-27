@@ -32,7 +32,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
-| [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | AI-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
+| [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | Automated-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper — MCP-compatible, structured threat reports, IP-allowlisted, local-first | Python · MCP · REST API |
 | [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Security ops console with embedded SIC — automated vulnerability analysis, dependency health SCA, uptime monitoring | Next.js · TypeScript · LLM API |
 
