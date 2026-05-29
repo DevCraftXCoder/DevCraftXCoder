@@ -40,7 +40,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
-| [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Social music platform for independent artists — 150+ API routes, real-time DMs, AI-powered recommendations, HLS streaming, Stripe subscriptions | TypeScript · Hono · CF Workers · D1 · R2 |
+| [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Social music platform for independent artists — real-time DMs, AI-powered recommendations, HLS streaming, Stripe subscriptions | TypeScript · Hono · CF Workers · D1 · R2 |
 | [Finos](https://github.com/DevCraftXCoder/Finos) | Financial AI OS — Next.js web + Tauri 2 desktop + edge API, real-time dashboards, AI intelligence, typed SQL bridge | Next.js 15 · Tauri 2.x · Hono · CF Workers · Supabase |
 
 ### Automation Systems
@@ -103,20 +103,8 @@ End-to-end ownership — from threat model and database schema through deployed 
 - **Offensive and defensive** — I build the pentesting frameworks and the production systems they're designed to test. Understanding both sides produces better engineering on each.
 - **Edge-native architecture** — Cloudflare Workers, D1, R2, and Durable Objects as the default runtime. Globally distributed, zero cold starts, no server management overhead.
 - **AI-augmented workflows** — Multi-provider LLM integrations (Claude, OpenRouter, Ollama) with structured tool use, streaming, and autonomous agents for security automation and intelligent reporting at scale.
-- **Multi-agent orchestration** — 50+ specialized Claude Code agents with model-aware spawning, handoff protocols, and parallel execution. Custom hook system (16 hooks) enforces quality gates across every code change.
+- **Multi-agent orchestration** — Specialized Claude Code agents with model-aware spawning, handoff protocols, and parallel execution. Custom hook system enforces quality gates across every code change.
 - **Production-grade standards** — Every feature includes structured error handling, observability, input validation, and deployment configuration. Nothing ships incomplete.
-
----
-
-## Recent Work
-
-- **Security Intelligence Center** — 150+ security tools, 12+ autonomous agents, billing server, incident tracking, MCP integration (v6)
-- **ai-alias-system** — `@$#&%~` symbol shorthand for Claude Code, Codex CLI, Gemini CLI — interactive wizard, per-project vocabulary, validate command
-- **Claude Hermes Bridge** — multi-provider LLM fallback (Ollama → OpenRouter), Discord gateway bot, auth.json credential cache management
-- **BelieveIt** — visual concept social platform for AI-generated images, brand campaigns, and creative portfolios
-- **Underground API** — 150+ routes across 41 files, 76 D1 migrations, 30+ tables, HLS multi-bitrate streaming, Web Push notifications
-- **EV Betta** — picks engine with player prop scoring, multi-source odds scraper (6 sources), Discord webhook alerts
-- **Hook Recovery** — Claude Code hook hardening: token-guard re-read loops, silent write failures, post-compact blocks (23-test suite)
 
 ---
 
