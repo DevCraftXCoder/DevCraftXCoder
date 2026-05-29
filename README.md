@@ -17,7 +17,7 @@
 
 ## What I Build
 
-Production security tooling, globally distributed edge systems, automation, and a social music platform for independent artists — architected for environments where uptime, data integrity, and threat resilience are baseline requirements.
+Production security tooling, globally distributed edge systems, automation, and a social platforms — architected for environments where uptime, data integrity, and threat resilience are baseline requirements.
 
 - **Security engineering** — Pentesting frameworks with 150+ tools and autonomous agents, attack surface mapping, zero-trust access controls, and MCP-compatible tooling for integration into existing security workflows.
 - **Edge-native infrastructure** — Serverless backends on Cloudflare Workers with D1, R2, Durable Objects, and Workers Rate Limiting. Globally distributed, no cold starts, no traditional server management.
