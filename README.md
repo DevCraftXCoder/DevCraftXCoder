@@ -56,6 +56,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
+| [AI Infrastructure](https://github.com/DevCraftXCoder/AI-Infrastructure) | OpenAI-compatible LLM gateway + service health control plane — OpenRouter cascade, input/output safety, D1 cost ledger, 5-min health sweeps, prompt cache auto-injection | TypeScript · Hono · CF Workers · D1 · Workers Rate Limiting |
 | [Ops App](https://github.com/DevCraftXCoder/Ops-App) | Workflow automation, monitoring, alerting and ticketing dashboard — drag-and-drop workflow builder, real-time metrics, PM2/CF cron migration | Next.js 15 · React Flow · CF Workers · R2 |
 | [Autodeploy](https://github.com/DevCraftXCoder/Autodeploy) | Non-blocking CF Workers autodeploy hook system — git-triggered builds, detached wrangler deploy, concurrent pipelines | Node.js · Cloudflare Workers · Git Hooks |
 | [Claude Hermes Bridge](https://github.com/DevCraftXCoder/claude-hermes-bridge) | Claude Code to Hermes agent bridge — auto-syncs agents/hooks/skills to WSL2 autonomous agent, multi-provider LLM fallback (Ollama + OpenRouter), Discord gateway bot | Node.js · WSL2 · Ollama · Claude Code Hooks |
