@@ -103,7 +103,7 @@ End-to-end ownership — from threat model and database schema through deployed 
 - **Security by design** — Every system is built with hardened auth, input validation, rate limiting, and CSRF protection from the first commit. Security is a design constraint, not a follow-up ticket.
 - **Offensive and defensive** — I build the pentesting frameworks and the production systems they're designed to test. Understanding both sides produces better engineering on each.
 - **Edge-native architecture** — Cloudflare Workers, D1, R2, and Durable Objects as the default runtime. Globally distributed, zero cold starts, no server management overhead.
-- **AI-augmented workflows** — Multi-provider LLM integrations with structured tool use, streaming, and autonomous agents for security automation and intelligent reporting at scale.
+- **Automated-augmented workflows** — Multi-provider LLM integrations with structured tool use, streaming, and autonomous agents for security automation and intelligent reporting at scale.
 - **Multi-agent orchestration** — Specialized Claude Code agents with model-aware spawning, handoff protocols, and parallel execution. Custom hook system enforces quality gates across every code change.
 - **Production-grade standards** — Every feature includes structured error handling, observability, input validation, and deployment configuration. Nothing ships incomplete.
 
