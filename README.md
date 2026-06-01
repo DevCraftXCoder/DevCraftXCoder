@@ -78,6 +78,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
+| [dropstream](https://dropstream.gg) | Live media and control wall for streamers — drop any stream, video, chat, timer, or widget link into freeform panes, arrange them, and export a clean OBS browser source. Room state serialized to URL; safety model drops unsafe schemes and sandboxes iframes without `allow-same-origin` | TanStack Start · React 19 · Vite · CF Workers |
 | [BelieveIt](https://github.com/DevCraftXCoder/BelieveIt) | Visual concept social platform — portfolio and discovery for automated-generated images, brand concepts, and creative campaigns | Vite · React · Cloudflare Pages |
 | [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, dev app launcher; zero port exposure via CF Tunnel | Next.js · Docker · Cloudflare Tunnel |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 3,900+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript + MCP plugin | JSON · TypeScript · MCP |
