@@ -35,7 +35,6 @@ Production security tooling, globally distributed edge systems, automation, and 
 | [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | Automated-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
 | [SOC Handoff](https://github.com/DevCraftXCoder/soc-handoff) | Security operations handoff and audit reporting system — NIST SP 800-61, MITRE ATT&CK, OWASP, CIS Controls v8. Integrates with SIC for automated finding ingestion | Python · TypeScript · SIC |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper — MCP-compatible, structured threat reports, IP-allowlisted, local-first | Python · MCP · REST API |
-| [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Security ops console with embedded SIC — automated vulnerability analysis, dependency health SCA, uptime monitoring | Next.js · TypeScript · LLM API |
 
 ### Platform Engineering
 
@@ -56,6 +55,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
+| [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Security ops console with embedded SIC — automated vulnerability analysis, dependency health SCA, uptime monitoring | Next.js · TypeScript · LLM API |
 | [AI Infrastructure](https://github.com/DevCraftXCoder/AI-Infrastructure) | OpenAI-compatible LLM gateway + service health control plane — OpenRouter cascade, input/output safety, D1 cost ledger, 5-min health sweeps, prompt cache auto-injection | TypeScript · Hono · CF Workers · D1 · Workers Rate Limiting |
 | [Ops App](https://github.com/DevCraftXCoder/Ops-App) | Workflow automation, monitoring, alerting and ticketing dashboard — drag-and-drop workflow builder, real-time metrics, PM2/CF cron migration | Next.js 15 · React Flow · CF Workers · R2 |
 | [Autodeploy](https://github.com/DevCraftXCoder/Autodeploy) | Non-blocking CF Workers autodeploy hook system — git-triggered builds, detached wrangler deploy, concurrent pipelines | Node.js · Cloudflare Workers · Git Hooks |
