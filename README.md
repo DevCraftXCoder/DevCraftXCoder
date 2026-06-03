@@ -32,40 +32,40 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
-| [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | Automated-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
-| [SOC Handoff](https://github.com/DevCraftXCoder/soc-handoff) | Security operations handoff and audit reporting system — NIST SP 800-61, MITRE ATT&CK, OWASP, CIS Controls v8. Integrates with SIC for automated finding ingestion | Python · TypeScript · SIC |
+| [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | AI-powered pentesting MCP framework — 150+ security tools, 12+ autonomous agents, local-first zero-trust design | Python · MCP · REST API |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper — MCP-compatible, structured threat reports, IP-allowlisted, local-first | Python · MCP · REST API |
+| [SOC Handoff](https://github.com/DevCraftXCoder/soc-handoff) | Security operations handoff and audit reporting system — NIST SP 800-61, MITRE ATT&CK, OWASP, CIS Controls v8. Integrates with SIC for automated finding ingestion | Python · TypeScript · SIC |
 
 ### Platform Engineering
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
-| [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Social music platform for independent artists — real-time DMs, HLS streaming, Stripe subscriptions | TypeScript · Hono · CF Workers · D1 · R2 |
-| [Finos](https://github.com/DevCraftXCoder/Finos) | Financial AI OS — Next.js web + Tauri 2 desktop + edge API, real-time dashboards, Automated intelligence, typed SQL bridge | Next.js 15 · Tauri 2.x · Hono · CF Workers · Supabase |
-
-### Automation Systems
-
-| Project | What It Is | Stack |
-|---------|-----------|-------|
-| [Biggest Bro](https://github.com/DevCraftXCoder/Biggest-Bro) | Domain-expert agent — LLM extended thinking, tool use, prompt caching, SSE streaming | Next.js · LLM SDK · LLM API |
-| [Growth Report AI](https://github.com/DevCraftXCoder/Growth-Report-AI) | Analytics automation dashboard — streaming LLM reports, prompt caching, sub-2s load, period-over-period comparisons | Next.js · LLM SDK · SSE |
-| [Swarm Orchestrator](https://github.com/DevCraftXCoder/swarm-orchestrator) | Meta-orchestrator for coding agents — analyzes tasks, picks agents, dispatches swarms, collects handoffs | Node.js · Claude Code · Agent Framework |
+| [Underground Social](https://github.com/DevCraftXCoder/Underground-Social) | Social music platform for independent artists — real-time DMs via Durable Objects, HLS multi-bitrate streaming, Stripe subscriptions, 42-route edge API | TypeScript · Hono · CF Workers · D1 · R2 |
+| [Finos](https://github.com/DevCraftXCoder/Finos) | Financial AI OS — Next.js web + Tauri 2 desktop + edge API, real-time dashboards, AI intelligence, typed SQL bridge | Next.js 15 · Tauri 2.x · Hono · CF Workers · Supabase |
 
 ### Infrastructure & Developer Tools
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
-| [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Security ops console with embedded SIC — automated vulnerability analysis, dependency health SCA, uptime monitoring | Next.js · TypeScript · LLM API |
 | [AI Infrastructure](https://github.com/DevCraftXCoder/AI-Infrastructure) | OpenAI-compatible LLM gateway + service health control plane — OpenRouter cascade, input/output safety, D1 cost ledger, 5-min health sweeps, prompt cache auto-injection | TypeScript · Hono · CF Workers · D1 · Workers Rate Limiting |
+| [Admin Dashboard](https://github.com/DevCraftXCoder/Admin-Dashboard) | Security ops console with embedded SIC — automated vulnerability analysis, dependency health SCA, uptime monitoring | Next.js · TypeScript · LLM API |
 | [Ops App](https://github.com/DevCraftXCoder/Ops-App) | Workflow automation, monitoring, alerting and ticketing dashboard — drag-and-drop workflow builder, real-time metrics, PM2/CF cron migration | Next.js 15 · React Flow · CF Workers · R2 |
-| [Autodeploy](https://github.com/DevCraftXCoder/Autodeploy) | Non-blocking CF Workers autodeploy hook system — git-triggered builds, detached wrangler deploy, concurrent pipelines | Node.js · Cloudflare Workers · Git Hooks |
 | [Claude Hermes Bridge](https://github.com/DevCraftXCoder/claude-hermes-bridge) | Claude Code to Hermes agent bridge — auto-syncs agents/hooks/skills to WSL2 autonomous agent, multi-provider LLM fallback (Ollama + OpenRouter), Discord gateway bot | Node.js · WSL2 · Ollama · Claude Code Hooks |
+| [Autodeploy](https://github.com/DevCraftXCoder/Autodeploy) | Non-blocking CF Workers autodeploy hook system — git-triggered builds, detached wrangler deploy, concurrent pipelines | Node.js · Cloudflare Workers · Git Hooks |
+| [snap](https://github.com/DevCraftXCoder/snap) | Screenshot vision + visual alias manager for Claude Code — analyzes Windows screenshots with native vision, correlates to repo source files and CSS layers, persists as reusable `!Name` aliases | Node.js · Claude Code · pnpm |
 | [ai-alias-system](https://github.com/DevCraftXCoder/ai-alias-system) | Symbol-shorthand alias vocabulary for coding assistants — `pnpm dlx ai-alias-system install` wires `@`, `$`, `#`, `&`, `%`, `~` into Claude Code, Codex CLI, and Gemini CLI | Node.js · pnpm CLI · Claude Code · Codex · Gemini |
+| [Hook Recovery](https://github.com/DevCraftXCoder/hook-recovery) | Claude Code hook hardening kit — fixes re-read loops, silent write failures, post-compact blocks. 23-test suite, one-line install | Node.js · Claude Code Hooks |
+| [PDF Report Engine](https://github.com/DevCraftXCoder/PDF-Report-Engine) | Enterprise PDF generation — Python ReportLab engine, Next.js API routes, React 4-step wizard, live preview | Python · Node.js · Next.js · ReportLab |
 | [Mode](https://github.com/DevCraftXCoder/Mode) | System resource optimizer — auto-pauses Docker, WSL, background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU | Node.js · PowerShell · PM2 |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
-| [Hook Recovery](https://github.com/DevCraftXCoder/hook-recovery) | Claude Code hook hardening kit — fixes re-read loops, silent write failures, post-compact blocks. 23-test suite, one-line install | Node.js · Claude Code Hooks |
-| [snap](https://github.com/DevCraftXCoder/snap) | Screenshot vision + visual alias manager for Claude Code — analyzes Windows screenshots with native vision, correlates to repo source files and CSS layers, persists as reusable `!Name` aliases | Node.js · Claude Code · pnpm |
-| [PDF Report Engine](https://github.com/DevCraftXCoder/PDF-Report-Engine) | Enterprise PDF generation — Python ReportLab engine, Next.js API routes, React 4-step wizard, live preview | Python · Node.js · Next.js · ReportLab |
+
+### Automation & AI Systems
+
+| Project | What It Is | Stack |
+|---------|-----------|-------|
+| [Swarm Orchestrator](https://github.com/DevCraftXCoder/swarm-orchestrator) | Meta-orchestrator for coding agents — analyzes tasks, picks agents, dispatches swarms, collects handoffs | Node.js · Claude Code · Agent Framework |
+| [Biggest Bro](https://github.com/DevCraftXCoder/Biggest-Bro) | Domain-expert agent — LLM extended thinking, tool use, prompt caching, SSE streaming | Next.js · LLM SDK · LLM API |
+| [Growth Report AI](https://github.com/DevCraftXCoder/Growth-Report-AI) | Analytics automation dashboard — streaming LLM reports, prompt caching, sub-2s load, period-over-period comparisons | Next.js · LLM SDK · SSE |
 
 ### Analytics & Data
 
@@ -79,9 +79,9 @@ Production security tooling, globally distributed edge systems, automation, and 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
 | [dropstream](https://github.com/DevCraftXCoder/dropstream) | Live media and control wall for streamers — drop any stream, video, chat, timer, or widget link into freeform panes, arrange them, and export a clean OBS browser source. Room state serialized to URL; safety model drops unsafe schemes and sandboxes iframes without `allow-same-origin` | TanStack Start · React 19 · Vite · CF Workers |
-| [BelieveIt](https://github.com/DevCraftXCoder/BelieveIt) | Visual concept social platform — portfolio and discovery for automated-generated images, brand concepts, and creative campaigns | Vite · React · Cloudflare Pages |
-| [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, dev app launcher; zero port exposure via CF Tunnel | Next.js · Docker · Cloudflare Tunnel |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 3,900+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript + MCP plugin | JSON · TypeScript · MCP |
+| [BelieveIt](https://github.com/DevCraftXCoder/BelieveIt) | Visual concept social platform — portfolio and discovery for AI-generated images, brand concepts, and creative campaigns | Vite · React · Cloudflare Pages |
+| [Mizzy Tools](https://github.com/DevCraftXCoder/Mizzy-Toolz) | Self-hosted creator dashboard — streaming media downloads, analytics, dev app launcher; zero port exposure via CF Tunnel | Next.js · Docker · Cloudflare Tunnel |
 
 ---
 
