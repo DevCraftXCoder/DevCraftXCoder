@@ -58,6 +58,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 | [PDF Report Engine](https://github.com/DevCraftXCoder/PDF-Report-Engine) | Enterprise PDF generation — Python ReportLab engine, Next.js API routes, React 4-step wizard, live preview | Python · Node.js · Next.js · ReportLab |
 | [Mode](https://github.com/DevCraftXCoder/Mode) | System resource optimizer — auto-pauses Docker, WSL, background pollers; freezes idle Chrome tabs to reclaim RAM/CPU/GPU | Node.js · PowerShell · PM2 |
 | [PM2 Popup Guard](https://github.com/DevCraftXCoder/pm2-popup-guard) | Windows PM2 process cleanup — kills stale popups, heals port bindings, resets crash counters | PowerShell · Node.js · PM2 |
+| [CrossWindow](https://github.com/DevCraftXCoder/CrossWindow) | Windows desktop utility — move and swap windows across monitors with directional hotkeys | C# · Windows |
 
 ### Automation & AI Systems
 
@@ -78,6 +79,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
+| [Focus App](https://github.com/DevCraftXCoder/focus-app) | Timed writing sessions with AI scoring — 5-phase flow (splash → setup → write → score → history), countdown or open timer, 5 AI-graded dimensions (thinking, summary accuracy, improvement, understanding, focus), cross-window controls (minimize + ×), week streak tracking, AI daily prompts | Tauri 2 · React 19 · Vite · OpenRouter |
 | [dropstream](https://github.com/DevCraftXCoder/dropstream) | Live media and control wall for streamers — drop any stream, video, chat, timer, or widget link into freeform panes, arrange them, and export a clean OBS browser source. Room state serialized to URL; safety model drops unsafe schemes and sandboxes iframes without `allow-same-origin` | TanStack Start · React 19 · Vite · CF Workers |
 | [Prompt Library](https://github.com/DevCraftXCoder/Prompt-Library) | 3,900+ production-ready prompts — Quick/Combo/Paragraph tiers, 33 sections, JSON + TypeScript + MCP plugin | JSON · TypeScript · MCP |
 | [BelieveIt](https://github.com/DevCraftXCoder/BelieveIt) | Visual concept social platform — portfolio and discovery for AI-generated images, brand concepts, and creative campaigns | Vite · React · Cloudflare Pages |
