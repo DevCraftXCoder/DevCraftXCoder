@@ -31,7 +31,7 @@ Production security tooling, globally distributed edge systems, automation, and 
 
 | Project | What It Is | Stack |
 |---------|-----------|-------|
-| [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | Pentesting MCP framework — 150+ security tools, 12+ specialized agents, local-first zero-trust design | Python · MCP · REST API |
+| [Security Intelligence Center](https://github.com/DevCraftXCoder/Security-Intelligence-Center) | Pentesting MCP framework — 85 security tools, 12+ specialized agents, local-first zero-trust design | Python · MCP · REST API |
 | [AttackMap](https://github.com/DevCraftXCoder/AttackMap) | Attack surface mapper — MCP-compatible, structured threat reports, IP-allowlisted, local-first | Python · MCP · REST API |
 | [SOC Handoff](https://github.com/DevCraftXCoder/soc-handoff) | Security operations handoff and audit reporting system — NIST SP 800-61, MITRE ATT&CK, OWASP, CIS Controls v8. Integrates with SIC for automated finding ingestion | Python · TypeScript · SIC |
 
