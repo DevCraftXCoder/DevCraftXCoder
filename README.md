@@ -2,7 +2,7 @@
 
 # DevCraftXCoder
 
-**Full-stack engineer building security systems, edge infrastructure, automation, and music platforms.**
+**Full-stack engineer building security systems, edge infrastructure, automation, and creator platforms.**
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
